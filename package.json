@@ -1,0 +1,29 @@
+{
+  "name": "whatsappclone-mern-backend",
+  "version": "1.0.0",
+  "description": "whatsapp clone",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulAahad13/whatsappClone-mern-backend.git"
+  },
+  "author": "aahadjs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdulAahad13/whatsappClone-mern-backend/issues"
+  },
+  "homepage": "https://github.com/AbdulAahad13/whatsappClone-mern-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "mongoose": "^5.13.2",
+    "nodemon": "^2.0.9",
+    "pusher": "^5.0.0"
+  }
+}
