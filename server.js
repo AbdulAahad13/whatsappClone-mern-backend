@@ -62,7 +62,7 @@ db.once("open", () => {
 });
 
 //api route
-app.get('/', (req, res) => res.status(200).send('WHATSAPP CLONE SERVER ONLINE...'))
+app.get('/', (req, res) => res.status(200).send('WHATSAPP CLONE SERVER ONLINE...AGAIN'))
 
 app.get("/messages/sync", (req, res) => {
     Messages.find((err, data) => {
